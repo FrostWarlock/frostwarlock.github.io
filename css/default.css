@@ -1,0 +1,32 @@
+/* Importing Font - Glacial Indifference */
+@font-face {
+    font-family: "Glacial Indifference";
+    src: url("/files/GlacialIndifference-Regular.otf") format("OpenType");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Glacial Indifference";
+    src: url("/files/GlacialIndifference-Bold.otf")  format("OpenType");
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "Glacial Indifference";
+    src: url("/files/GlacialIndifference-Italic.otf")  format("OpenType");
+    font-style: italic;
+}
+
+/* Set Glacial Indifference as Default Font */
+* {
+    font-family: "Glacial Indifference"
+}
+
+/* Removes Underlines on Links except on Hover */
+a {
+    text-decoration: None
+}
+a:hover {
+    text-decoration: underline;
+}
