@@ -35,3 +35,14 @@
 ul {
     list-style: None;
 }
+
+/* Change Pill Background when Active to Dark */
+.nav-pills .nav-link.active {
+    background-color: #343A40;
+}
+
+/* Remove Button Border upon Click */
+.btn:focus {
+    outline: None;
+    box-shadow: None;
+}
