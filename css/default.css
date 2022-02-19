@@ -24,9 +24,14 @@
 }
 
 /* Removes Underlines on Links except on Hover */
-a {
+.btn-link {
     text-decoration: None
 }
-a:hover {
+.btn-link:hover {
     text-decoration: underline;
+}
+
+/* Removes Points on Unordered List */
+ul {
+    list-style: None;
 }

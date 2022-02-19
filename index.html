@@ -15,64 +15,147 @@
 <header>
     <div class="container">
         <!-- Insert Name, Role and Organisation Here -->
-        <h1>Huang Zheng Long</h1>
-        <h3>Student under Diploma of Applied AI & Analytics</h3>
-        <h5>Singapore Polytechnic</h5>
+        <h1 class="mt-5">Huang Zheng Long</h1>
+        <hr />
+        <h3 class="mb-0">Studying for Diploma of Applied AI & Analytics</h3>
+        <h4 class="mt-0">Singapore Polytechnic</h4>
     </div>
 </header>
 <body>
-    <div class="container">
-    <!-- Sidebar -->
-    <div class="col-3">
-        <!-- Contact Information -->
-        <h3>Contacts</h3>
-        <ul class="list-group list-group-flush">
-            <!-- Phone Number -->
-            <li class="list-group-item">   
-                <img src="/img/iconLinkedIn.png" alt="Phone Icon" style="width:24px;height:24px">             
-                <a class="link-dark" href="tel:+6597850677">+65 9785 0677</a>
-            </li>
-            <!-- Email Address-->
-            <li class="list-group-item">   
-                <img src="/img/iconEmailBlack.png" alt="Email Icon" style="width:24px;height:24px">             
-                <a class="link-dark" href="https://www.linkedin.com/in/huangzhenglong/">zhenglong.huang@gmail.com</a>
-            </li>
-            <!-- LinkedIn -->
-            <li class="list-group-item">   
-                <img src="/img/iconLinkedIn.png" alt="LinkedIn Icon" style="width:24px;height:24px">             
-                <a class="link-dark" href="https://www.linkedin.com/in/huangzhenglong/">LinkedIn</a>
-            </li>
-            <!-- CV/Resume Download -->
-            <li class="list-group-item">
-                <img src="/img/iconResume.png" alt="Resume Icon" style="width:24px;height:24px">
-                <a class="link-dark" href="/html/download.html">Download CV/Resume</a>
-            </li>
-        </ul>
-    </div>
-    <!-- Main Body -->
-    <div class="col-8"></div>
-    </div>
-</body>
-<footer>
-    <!-- Credits -->
-    <div class="container">
-        <div>
-        <button class="btn btn-dark" type="button" 
-        data-bs-toggle="collapse" data-bs-target="#collapseFavicon" 
-        aria-expanded="false" aria-controls="collapseFavicon">
-          Icons by Favicon
-        </button>
-    </div>
-      <div class="collapse col-2" id="collapseFavicon">
-            <div class="list-group">
-                <a href="https://www.flaticon.com/authors/google" class="list-group-item list-group-item-action">Google</a>
-                <a href="https://www.freepik.com" class="list-group-item list-group-item-action">Freepik</a>
-                <a href="https://www.flaticon.com/authors/pixel-perfect" class="list-group-item list-group-item-action">Pixel Perfect</a>
-                <a href="https://www.flaticon.com/authors/prosymbols-premium" class="list-group-item list-group-item-action">Prosymbols Premium</a>
-                <a href="https://www.flaticon.com/authors/ilham-fitrotul-hayat" class="list-group-item list-group-item-action">Ilham Fitrotul Hayat</a>
-                <a href="https://www.flaticon.com/authors/kathelynnexx" class="list-group-item list-group-item-action">Kathelynnexx</a>
+    <table class="container">
+        <tr>
+            <td class="col-3">
+                <!-- Sidebar Control Panel -->
+                <div class="d-flex align-items-start">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <!-- Button #1 - Expertise -->
+                        <button class="nav-link link-dark" id="v-pills-home-tab" type="button" role="tab" 
+                        data-bs-toggle="pill" data-bs-target="#v-pills-home" 
+                        aria-controls="v-pills-home" aria-selected="true"><h3>
+                            Expertise
+                        </h3></button>
+                        <!-- Button #2 - Experience -->
+                        <button class="nav-link link-dark" id="v-pills-profile-tab" type="button" role="tab" 
+                        data-bs-toggle="pill" data-bs-target="#v-pills-profile" 
+                        aria-controls="v-pills-profile" aria-selected="false"><h3>
+                            Experience
+                        </h3></button>
+                        <!-- Button #3 - Portfolio -->
+                        <button class="nav-link link-dark" id="v-pills-messages-tab" type="button" role="tab" 
+                        data-bs-toggle="pill" data-bs-target="#v-pills-messages" 
+                        aria-controls="v-pills-messages" aria-selected="false"><h3>
+                            Portfolio
+                        </h3></button>
+                        <!-- Button #4 - About Me -->
+                        <button class="nav-link active link-dark" id="v-pills-settings-tab" type="button" role="tab" 
+                        data-bs-toggle="pill" data-bs-target="#v-pills-settings" 
+                        aria-controls="v-pills-settings" aria-selected="false"><h3>
+                            About Me
+                        </h3></button>
+                    </div>
+                </div>
+            </td>
+            <td class="col-9" colspan="2">
+                <!-- Sidebar Content -->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <!-- Content #1 - Expertise -->
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                    <!-- Content #2 - Experience -->
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                    <!-- Content #3 - Portfolio -->
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                    <!-- Content #4 - About Me -->
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                  </div>
+                </div>
             </div>
-      </div>
-      </div>
-</footer>
+            </td>
+        </tr>
+        <tr>
+            <td class="col-3">
+                    <!-- Contact Information -->
+                    <h3>Contacts</h3>
+                    <ul class="list-group list-group-flush">
+                        <!-- Phone Number -->
+                        <li class="list-group-item">   
+                            <img src="/img/iconPhone.png" alt="Phone Icon" style="width:24px;height:24px">             
+                            <a class="btn btn-link link-dark" href="tel:+6597850677">+65 9785 0677</a>
+                        </li>
+                        <!-- Email Address-->
+                        <li class="list-group-item">   
+                            <img src="/img/iconEmailBlack.png" alt="Email Icon" style="width:24px;height:24px">             
+                            <a class="btn btn-link link-dark" href="mailto:zhenglong.huang@gmail.com">zhenglong.huang@gmail.com</a>
+                        </li>
+                        <!-- LinkedIn -->
+                        <li class="list-group-item">   
+                            <img src="/img/iconLinkedIn.png" alt="LinkedIn Icon" style="width:24px;height:24px">             
+                            <a class="btn btn-link link-dark" href="https://www.linkedin.com/in/huangzhenglong/">LinkedIn</a>
+                        </li>
+                        <!-- CV/Resume Download -->
+                        <li class="list-group-item">
+                            <img src="/img/iconResume.png" alt="Resume Icon" style="width:24px;height:24px">
+                            <a class="btn btn-link link-dark" role="button" 
+                            data-bs-toggle="collapse" href="#collapseResume" 
+                            aria-expanded="false" aria-controls="collapseResume">
+                                Download CV/Resume
+                            </a>
+                            <!-- Further CV/Resume Download Links -->
+                            <div class="collapse" id="collapseResume">
+                                <ul>
+                                    <li><a href="#" class="btn-link link-dark" download="Huang-Zheng-Long_CV">Curriculum Vitae</a></li>
+                                    <li><a href="#" class="btn-link link-dark">Resume</a></li>
+                                    <li><a href="#" class="btn-link link-dark">Download All</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Education Information-->
+                    <h3>Education</h3>
+                            <!-- Insert Highest Education -->
+                            <h5 style="margin:0">Diploma in Applied AI & Analytics</h5>
+                            <div class="row justify-content-between">
+                                <div class="col-8"><h6>Singapore Polytechnic</h6></div>
+                                <div class="col-4">2021 - 2024</div>
+                                <div class="col-12">Descriptions</div>
+                            </div>
+                    <button class="btn btn-link" type="button" 
+                        data-bs-toggle="collapse" data-bs-target="#collapseEducation" 
+                        aria-expanded="false" aria-controls="collapseEducation">
+                          See More
+                    </button>
+                    <div class="collapse" id="collapseEducation">
+                        <!-- Insert Past Education -->
+                        <h5 style="margin:0">GCE "O" Levels</h5>
+                            <div class="row justify-content-between">
+                                <div class="col-8"><h6>Anglo-Chinese School (Independent)</h6></div>
+                                <div class="col-4">2017 - 2020</div>
+                                <div class="col-12">Description</div>
+                            </div>
+                    </div>
+            </td>
+        </tr>
+    </table>
+    <footer class="footer mt-auto py-3 mb-0 bg-dark">
+        <!-- Credits -->
+        <div class="container">
+            <div>
+            <button class="btn btn-dark" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#collapseFavicon" 
+            aria-expanded="false" aria-controls="collapseFavicon">
+              Icons by Favicon
+            </button>
+            </div>
+            <div class="collapse col-2" id="collapseFavicon">
+                <div class="list-group list-group-flush">
+                    <a href="https://www.flaticon.com/authors/google" class="list-group-item list-group-item-action">Google</a>
+                    <a href="https://www.freepik.com" class="list-group-item list-group-item-action">Freepik</a>
+                    <a href="https://www.flaticon.com/authors/pixel-perfect" class="list-group-item list-group-item-action">Pixel Perfect</a>
+                    <a href="https://www.flaticon.com/authors/prosymbols-premium" class="list-group-item list-group-item-action">Prosymbols Premium</a>
+                    <a href="https://www.flaticon.com/authors/ilham-fitrotul-hayat" class="list-group-item list-group-item-action">Ilham Fitrotul Hayat</a>
+                    <a href="https://www.flaticon.com/authors/kathelynnexx" class="list-group-item list-group-item-action">Kathelynnexx</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
